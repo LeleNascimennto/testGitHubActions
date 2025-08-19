@@ -1,0 +1,15 @@
+name: Oiee, tudo bem?
+
+on: [push]
+
+jobs:
+  comprimento:
+    runs-on: ubuntu-latest
+
+    steps: 
+      - name: Imprime uma mensagem no console
+
+        run: echo "Oieeee! Está é minha primeira GitHub Actions"
+
+      - name: Imprime outra mensagem
+        run: echo "Oieee! Essa é minha segunda mensagem, até mais!"
